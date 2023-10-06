@@ -14,6 +14,11 @@ table{
     padding: 10px;
     font-family: 'Noto Sans TC', sans-serif;
 }
+
+.one img{
+    width: 15vw;
+}
+
 .two td{
     text-align: left;
 }

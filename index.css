@@ -4,13 +4,31 @@
   margin: 0;
 }
 
+.rotate {
+  transform: rotate(0deg) ;
+  transition: transform 0.3s ease ;
+}
+
+.rotate:hover {
+  transform: rotate(45deg) ;
+}
+
+.zoom-in {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.zoom-in:hover {
+  transform: scale(1.1);
+}
+
 /* 頁首 */
 header {
   top: 0;
   background-color: #716f6a;
   height: 10vh;
   width: 100%;
-  position: fixed;
+  position: sticky;
   display: flex;
   
 }
@@ -26,19 +44,13 @@ header {
   padding:10px;
 }
 
-li :hover {
-  transition: 0.5s;
-  opacity: 0.5;
-}
-
-
 /* 個人檔案 */
 .file {
   display: flex;
   background-image: url(/photo/blackboard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 10vh;
+
   height: auto;
 }
 
@@ -114,16 +126,17 @@ li :hover {
   background-color: rgba(197, 196, 196, 0.2);
 }
 
-a:hover {
+.fbicon a:hover {
   transition: 1s;
   opacity: 0.5;
 }
+
 
 .school{
   text-align: center;
   font-size: 5.5vh;
   background-color: #688086;
-  color:black;
+  color:white;
   font-family: "Noto Sans TC", sans-serif;
 }
 
@@ -141,6 +154,10 @@ a:hover {
   height: auto;
 }
 
+
+
+
+
 /* 頁尾標語 */
 footer {
   background-color: black;
@@ -153,6 +170,8 @@ footer {
   font-size: 10px;
   overflow: hidden;
 }
+
+
 /* 跑馬燈 */
 /* background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange,  red, orange, yellow, green, blue, indigo, violet);
   background-size: 300% 100%;

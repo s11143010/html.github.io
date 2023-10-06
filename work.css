@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@600&display=swap');
+table{
+    width: 65%;
+    height: 25vw;
+    border: 2px solid #333;
+    border-collapse: collapse;
+    margin: 0 auto ;
+    
+}
+.one th{
+    font-size: 30px;
+    background-color: #f8eded;
+    border-top: black 2px solid;
+    padding: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.two td{
+    text-align: left;
+}
+
+td {
+
+    text-align: center;
+    border: 2px solid #333;
+    font-size: 25px;
+    padding: 5px;
+}
+
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+

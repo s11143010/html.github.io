@@ -22,6 +22,7 @@
   color: white;
   background-color: #716f6a;
   border-radius: 10px;
+  
 }
 
 /* 頁首 */
@@ -30,9 +31,9 @@ header {
   background-color: #716f6a;
   height: 10vh;
   width: 100%;
-  position: sticky;
+  position: fixed;
   display: flex;
-  
+  /* z-index: 111; */
 }
 
 .fbicon{
@@ -52,7 +53,7 @@ header {
   background-image: url(/photo/blackboard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
+  margin-top: 60px;
   height: auto;
 }
 
@@ -127,7 +128,8 @@ header {
   padding: 10px 20px;
   border-radius: 10px;
   background-color: rgba(197, 196, 196, 0.2);
-  transition: backgorund-color 0.5s ;
+  transition: background-color 0.5s ;
+
 }
 
 .button :hover{
@@ -145,6 +147,7 @@ header {
   width: 360px;
   border-left: 2px solid #ccc;
   padding: 0 20px 0 30px;
+  
 }
 .learning div{
   background-color: #fff;
@@ -152,7 +155,6 @@ header {
   font-size: 16px;
   border: 1px solid #ccc;
   line-height: 1.7;
-  position: relative;
 }
 
 
